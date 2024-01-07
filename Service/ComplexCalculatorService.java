@@ -34,7 +34,7 @@ public class ComplexCalculatorService {
                 + (num1.getImaginaryPart() * num2.getRealPart());
         ComplexNumber result = new ComplexNumber(realPart, imaginaryPart);
 
-        logger.info("Выполнена операция умножение комплексных чисел: " + num1 + " + " + num2 + " = " + result);
+        logger.info("Выполнена операция умножения комплексных чисел: " + num1 + " + " + num2 + " = " + result);
 
         return result;
     }
@@ -47,7 +47,7 @@ public class ComplexCalculatorService {
                 - (num1.getRealPart() * num2.getImaginaryPart())) / denominator;
         ComplexNumber result = new ComplexNumber(realPart, imaginaryPart);
 
-        logger.info("Выполнена операция деление комплексных чисел: " + num1 + " + " + num2 + " = " + result);
+        logger.info("Выполнена операция деления комплексных чисел: " + num1 + " + " + num2 + " = " + result);
 
         return result;
     }
